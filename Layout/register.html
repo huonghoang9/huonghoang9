@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>My Page Title</title>
+    <script src="https://kit.fontawesome.com/c6eab4491b.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/favicon.ico">
+    <link rel="canonical" href="https://mysite.com/mypage">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl" id="nav">
+        <!--tips: to change the nav placement use .fixed-top,.fixed-bottom,.sticky-top-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#idCollapse"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="" width="100" height="80">
+        </a>
+        <div class="collapse navbar-collapse" id="idCollapse">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="#">TRANG CHỦ<span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item dropdown" id="dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        THỜI TRANG NAM
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Quần nam</a>
+                        <a class="dropdown-item" href="#">Áo nam</a>
+                        <a class="dropdown-item" href="#">Giày dép</a>
+                        <a class="dropdown-item" href="#">Phụ kiện</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Hàng khuyến mại</a>
+                    </div>
+                </li>
+
+                <li class="nav-item" style="float: left;">
+                    <a class="nav-link text-white" href="#">GIỎ HÀNG</a>
+                </li>
+
+                <li class="nav-item" style="float: right;">
+                    <a class="nav-link text-white" href="#">GIỚI THIỆU</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="right-nav">
+            <a href="#"><i class="fas fa-shopping-cart" id="icon"></i></a>
+            <a href="#"><i class="fas fa-user" id="icon"></i></a>
+            <input type="text" placeholder="Tìm kiếm" class="search">
+            <button type="submit" style="border-radius: 10px; height: 30px;width: 40px; border: none;"><i class="fas fa-search" id="icon-search"></i></button>
+        </div>
+    </nav>
+    <br>
+
+    <div class="main-pass">
+        <h2>Đăng ký</h2>
+        <form enctype="multipart/form-data" method="post">
+            <div class="form-group">
+                <label for="inputUsername">Tên người dùng</label>
+                <input type="text" class="form-control" id="inputUsername" placeholder="">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Mật khẩu </label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Fullname">Họ và tên</label>
+                <input type="text" class="form-control" id="inputFullname" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="inputAddress2">Địa chỉ</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="Avatar">Ảnh đại diện</label>
+                    <input type="file" class="form-control" id="inputAvatar">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Số điện thoại</label>
+                    <input type="text" class="form-control" id="inputTel" placeholder="">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Tôi không phải người máy
+                    </label>
+                    <label style="float: right;">
+                        Đã có tài khoản? <a href="login.html" style="color: #FB685C;">Đăng nhập</a>
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary" style="background-color: #FB685C;">Đăng ký</button>
+        </form>
+
+    </div>
+    <br>
+
+    <!-- footer chung -->
+    <div class="Footer">
+        <div class="col-lg-3" style="float: left; font-size: 16px;">
+            <h4 class="footer-title">HỆ THỐNG CỬA HÀNG</h4>
+            <a href="#" class="ft-content">27 Chùa Bộc, Đống Đa, HN</a> <br>
+            <a href="#" class="ft-content">242 Thái Hà, Đống Đa, HN</a> <br>
+            <a href="#" class="ft-content">63 Đại Cổ Việt, Hai Bà Trưng, HN</a> <br>
+            <a href="#" class="ft-content">20 Dương Quảng Hàm, Cầu Giấy, HN</a> <br>
+            <a href="#" class="ft-content">346 Cầu Giấy, Cầu Giấy, HN</a> <br>
+            <a href="#" class="ft-content">116 Hồ Tùng Mậu, Cầu Giấy, HN</a>
+        </div>
+
+        <div class="col-lg-3" style="float: left; font-size: 16px;">
+            <H4 class="footer-title">HỖ TRỢ KHÁCH HÀNG</H4>
+            <a href="#" class="ft-content">Hướng Dẫn Mua Hàng</a> <br>
+            <a href="#" class="ft-content">Hình Thức Thanh Toán</a> <br>
+            <a href="#" class="ft-content">Quy Định Về Bảo Mật Thông Tin</a> <br>
+            <a href="#" class="ft-content">Chính Sách Bảo Hành</a> <br>
+            <a href="#" class="ft-content">Chính Sách Đổi Hàng</a> <br>
+            <a href="#" class="ft-content">Chính Sách Vận Chuyển</a> <br>
+            <a href="#" class="ft-content">Điều khoản dịch vụ</a> <br>
+            <a href="#" class="ft-content">Giới thiệu</a> <br>
+        </div>
+
+        <div class="col-lg-3" style="float: left; font-size: 16px;">
+            <div class="register">
+                <h4 class="footer-title">THEO DÕI CHÚNG TÔI</h4>
+                <input type="email" placeholder="Nhập email"
+                    style=" height: 30px; font-size: smaller; border-radius: 3px;"> <button
+                    type="submit"
+                    style="background-color:rgb(69, 68, 68); color: white; font-size: smaller; border-radius: 3px; height: 30px;">Đăng
+                    ký</button>
+            </div> <br> <br>
+            <div class="social">
+                <h5>KẾT NỐI VỚI CHÚNG TÔI TẠI</h5>
+                <a href="#" class="iconft"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="iconft"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="iconft"><i class="fab fa-pinterest"></i></a>
+                <a href="#" class="iconft"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="iconft"> <i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3" style="float: left;">
+        <br>
+        <p><b>Tư vấn mua hàng miễn phí:</b></p>
+        <p style="color: red;"><b>1800 1234 (Nhánh 1)</b></p>
+        <p><b>Hỗ trợ kỹ thuật:</b></p>
+        <p style="color: red;"><b>1800 1234 (Nhánh 2)</b></p>
+
+        <p><b>Hỗ trợ thanh toán:</b></p>
+        <p>
+            <i class="fab fa-cc-visa fa-2xl"></i>
+            <i class="fab fa-cc-mastercard fa-2xl"></i>
+            <i class="fab fa-apple-pay fa-2xl"></i>
+            <i class="fab fa-google-pay fa-2xl"></i>
+        </p>
+    </div>
+    <!--Optional JavaScript-->
+    <!--jQuery first, then Popper.js, then Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jspivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

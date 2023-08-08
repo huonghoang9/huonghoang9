@@ -1,0 +1,55 @@
+.smallnav{
+    margin-top: 20px;
+    margin-left: 130px;
+    margin-bottom: 30px;
+}
+article{
+    max-width: 1000px;
+    margin-bottom: 50px;
+}
+.danggiao{
+    padding: 20px;
+    margin: 10px;
+    margin-left: 0px;
+    overflow: hidden;
+    border-top: 1px solid #423c3E;
+    background-color: #423c3E;
+    color: white;
+    border-radius: 5px;
+}
+.big{
+    padding-top: 10px;
+    font-size: 32px;
+}
+.small{
+    font-size: 14px;
+    overflow: hidden;
+}
+.right{
+    float: right;
+    margin-top: 50px;
+    font-size: 36px;
+    color: red;
+}
+.article2{
+    width: 100%;
+    margin: 10px;
+    background-color: #423c3E;
+    border-top: 1px solid #423c3E;
+}
+.tongket{
+    padding: 20px;
+    margin: 10px;
+    margin-left: 0px;
+    overflow: hidden;
+    border-top: 1px solid #423c3E;
+    background-color: #423c3E;
+    color: white;
+    border-radius: 5px;
+}
+.right2{
+    float: right;
+    font-size: 24px;
+    color: red;
+    overflow: hidden;
+}

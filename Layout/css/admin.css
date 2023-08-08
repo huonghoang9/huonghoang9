@@ -1,0 +1,109 @@
+
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav p {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  color: wheat;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.row1{
+margin: 0 auto !important; 
+  width: 100%;
+
+}
+
+.mb10{
+  margin-bottom: 10px;
+}
+
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="password"],
+.formcontent input[type="text"],
+.formcontent input[type="password"],
+.formcontent input[type="email"],
+.formcontent input[type="file"]{
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.formtitle{
+  background-color: #eee;
+  border: 1px #ccc solid;
+  color: #666;
+  border-radius: 5px;
+  padding: 0px 20px;
+}
+
+.formcontent{
+  padding: 20px 0;
+}
+
+.formdsloai table{
+  width: 100%;
+  border-collapse:collapse ;
+ 
+}
+
+.formdsloai table th{
+
+  padding: 15px;
+  background-color: #ccc;
+}
+
+.formdsloai table td{
+  padding: 10px 20px;
+  border: 1px #ccc solid;
+}

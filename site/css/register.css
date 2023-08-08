@@ -1,0 +1,12 @@
+.main-pass{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 10px 10px 25px gray;
+}
+#inputAvatar{
+    height: 50px;
+}
+#inputTel{
+    height: 50px;
+}

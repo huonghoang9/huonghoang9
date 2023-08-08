@@ -1,0 +1,552 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    height: 88px;
+    max-width: 100%;
+    background-color: #fe0000;
+    padding: 0 19%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header ul li{
+    list-style: none;
+}
+header ul li ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 100px;
+    padding-left: 3px;
+}
+header ul li:hover ul{
+    display: block;
+}
+header ul li ul li a{
+    color: black;
+}
+header ul li ul li{
+    padding: 5px 10px 5px 10px;
+}
+header ul li ul li:hover{
+    border-left: 3px solid #ED3324;
+    padding-left: 7px;
+    background-color: #E5FAFF;
+    border-radius: 4px;
+}
+header .logo{
+    font-size: 50px;
+    text-shadow: 0 3px 9px gray;
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+form{
+    display: flex;
+    flex-direction: row;
+}
+form .A{
+    width: 320px;
+    height: 37px;
+    border: 1px solid white;
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 10px;
+}
+form .B{
+    /* width: 300px; */
+    height: 37px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    border-left: 1px solid black;
+    padding:0 10px;
+}
+form .B:hover{
+    background-color: rgb(224, 224, 224);
+    border: 1px solid rgb(224, 224, 224);
+    border-left: 1px solid black;
+}
+
+nav{
+    padding: 0 20%;
+    height: 44px;
+    max-width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+}
+nav .A{
+    width: 240px;
+    height: 44px;
+    background-color: #413b49;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 8px 0 0;
+}
+nav .A a{
+    font-weight: bold;
+    color: white;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+nav .B{
+    width: 240px;
+    height: 44px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .B a{
+    font-size: 18px;
+}
+nav .B a:hover{
+    font-weight: bold;
+}
+nav span{
+    font-size: 18px;
+}
+.container{
+    background-color: #F9F9F9;
+}
+.content{   
+    padding: 0 20%;
+    background-color: #F9F9F9;
+}
+.content article{
+    display: flex;
+    flex-direction: row;
+}
+.content article .danhmuc{
+    width: 20%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    line-height: 20.8px;
+    line-height: 23px;
+    padding-left: 10px;
+}
+.content article .danhmuc a{
+    color: #413b49;
+}
+.content article .danhmuc a:hover{
+    color: blue;
+}
+.content article .slider{
+    width: 80%;
+}
+.content article .slider iframe{
+    width: 100%;
+    height: 295px;
+}
+.content .topsp .daumuc{
+    border-radius: 10px 10px 0 0;
+    /* margin-top: 25px; */
+    width: 100%;
+}
+.content .topsp{
+    background-color: white;
+    width: 100%;
+    margin-top: 25px;
+}
+.content .topsp .noibat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px;
+}
+.content .topsp .noibat button{
+    height: 40px;
+    width: 70px;
+    border: 1px solid #D8D8D8;
+    background-color: white;
+    font-size: 13px;
+    border-radius: 4px;
+}
+.content .topsp .noibat button:hover{
+    background-color: #EE1E25;
+}
+.content .topsp .noibat button:hover a{
+    color: white;
+}
+.content .topsp .list-product{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content .topsp .list-product .product{
+    width: 220px;
+    height: 380px;
+    /* background-color: #413b49; */
+    box-shadow: 0px 0px 5px #CCCCCC;
+    border-radius: 10px;
+    padding:10px 10px;
+    padding-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.content .topsp .list-product .product a{
+    font-size: 17px;
+    font-weight: bold;
+    color: #3F3F3F;
+}
+.content .topsp .list-product .product a:hover{
+    color: #EE1E25;
+}
+.content .topsp .list-product .product p{
+    color: #EE1E25;
+    font-size: 19px;
+}
+.content .topsp .list-product .product del{
+    color: black;
+    font-size: 15px;
+}
+.content .topsp .list-product .product .save{
+    color: black;
+    font-size: 15px;
+}
+.content .topsp .list-product .product .addtocart{
+    margin: 0 auto;
+    background-color: #ED3324;
+    height: 30px;
+    padding: 0 10px;
+    color: white;
+    border: #ED3324;
+    border-radius: 10px;
+}
+.content .topsp .list-product .product .addtocart:hover{
+    background-color: white;
+    border: 1px solid #ED3324;
+    color: #ED3324;
+    transition: all .3s;
+}
+footer {
+    background-color: #F9F9F9;
+    padding-top: 25px;
+}
+footer .uu-dai{
+    background-color: #F4F4F4;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .uu-dai  button{
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    border: 1px solid #808080;
+    margin-right: 12px;
+}
+footer .uu-dai button:hover{
+    background-color: #AFADAD;
+}
+footer .uu-dai .gmail{
+    display: flex;
+    flex-direction: row;
+}
+footer .uu-dai .ip-gmail input{
+    width: 323px;
+    height: 34px;
+    border: 1px solid #AFADAD;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+footer .uu-dai .ip-gmail .dk{
+    width: 98px;
+    height: 34px;
+    padding-left: 0px;
+    background-color: #41B948;
+    color: white;
+}
+footer .uu-dai .gmail .text p{
+    color: #808080;
+    font-size: 15px;
+}
+footer .uu-dai .ip-gmail .dk:hover{
+    background-color: #43D54D;
+
+}
+footer .info{
+    background-color: #F9F9F9;
+    /* height: 100px; */
+    padding: 0 20%;
+    display: flex;
+    flex-direction: row;
+}
+footer .info .A{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-top: 10px;
+}
+footer .info .A p{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+}
+footer .info .A a{
+    font-size: 14px;
+    line-height: 24px;
+    color: #3F3F3F;
+}
+footer .info .A a:hover{
+    color: #EE1E25;
+}
+footer .copyright{
+    background-color: #F4F4F4;
+    text-align: center;
+    line-height: 18px;
+    font-size: 12px;
+    color: #3F3F3F;
+    padding: 10px 0px;
+}
+
+/* Hiệu ứng */
+.product img{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.product img:hover{
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+/* Chi tiết sản phẩm */
+.chitietsp{
+    display: flex;
+    padding: 0 20%;
+    background-color: #F9F9F9;
+}
+.chitietsp .trai{
+    width: 50%;
+    padding: 30px 20px;
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.chitietsp .trai img{
+    width: 68%;
+    margin-bottom: 20px;
+}
+.chitietsp .trai .thongtin{
+    text-align: left;
+}
+.chitietsp .trai .thongtin .A{
+    font-size: 21px;
+    font-weight: bold;
+}
+.chitietsp .trai .thongtin .B{
+    font-size: 17px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+.chitietsp .phai{
+    width: 50%;
+    padding: 30px 20px;
+    background-color: white;
+    padding-top: 40px;
+}
+.chitietsp .phai .tieude{
+    font-size: 26px;
+    font-weight: bold;
+}
+.chitietsp .phai .luotxem{
+    font-size: 15px;
+    margin: 10px 0px;
+}
+.chitietsp .phai hr{
+    /* background-color: #EDEDED; */
+    border: 1px solid #EDEDED;
+}
+.chitietsp .phai .dongia{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.chitietsp .phai .giamgia{
+    font-size: 17px;
+    color: #A6A6A6;
+    margin-left: 69px;
+}
+.chitietsp .phai .muangay{
+    width: 520px;
+    height: 60px;
+    background-color: #ED3324;
+    border: 1px solid #ED3324;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+}
+.chitietsp .phai .muangay:hover{
+    background-color: #F15F53;
+    transition: all .3s;
+}
+.chitietsp .phai .giohang{
+    display: flex;
+    justify-content: space-between;
+    width: 520px;
+}
+.chitietsp .phai .giohang button{
+    width: 248px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #ED3324;
+    border-radius: 5px;
+    margin-top: 16px;
+    color: #ED3324;
+    font-size: 16px;
+    font-weight: bold;
+}
+.chitietsp .phai .giohang button:hover{
+    background-color: #ED3324;
+    color: white;
+    transition: all .5s;
+}
+.chitietsp .phai .goimua{
+    font-size: 18px;
+    margin-top: 15px;
+}
+/* Sản phẩm cùng loại */
+.spcungloai{
+    background-color: #FE0000;
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 10px 10px 0 0 ;
+}
+
+/* Addtocart */
+h3{
+    text-align: center;
+    font-size: 23px;
+    padding: 20px 0;
+}
+.content table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+.content table thead{
+    background-color: #FE0000;
+    height: 40px;
+    color: white;
+}
+.content table tbody td{
+    height: 35px;
+}
+.content table tbody td{
+    border-bottom: 1px solid #D8D8D8;
+    padding: 3px 0;
+}
+.content button{
+    border-radius: 10px;
+    border: 1px solid #D8D8D8;
+    padding: 9px;
+    margin: 5px;
+}
+.content button:hover{
+    background-color: #CCCCCC;
+}
+
+/* Bill */
+.bill{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.bill .thongtin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bill .thongtin .phai{
+    width: 35%;
+}
+.bill .thongtin .phai .thanhtoan{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.bill .thongtin .phai .thanhtoan div{
+    margin-top: 10px;
+    font-size: 17px;
+}
+.bill .thongtin .trai{
+    width: 60%;
+}
+.bill .thongtin .trai label{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.bill .thongtin .trai input{
+    margin: 5px 0;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    height: 32px;
+    width: 100%;
+    outline: none;
+    padding-left: 10px;
+}
+.bill .thongtin .trai input:focus{
+    border: 1px solid #E95851;
+    padding-left: 10px;
+}
+.bill input[type="submit"]{
+    margin: 0 auto;
+    width: 300px;
+    height: 40px;
+    background-color: #ED3324;
+    border: 1px solid #ED3324;
+    border-radius: 5px;
+    color: white;
+    transition: all .3s;
+}
+.bill input[type="submit"]:hover{
+    background-color: white;
+    color: #ED3324;
+}
+
+/* Bill confiirm */
+.ttdathang{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    width: 100%;
+    padding-right: 670px;
+    padding-left: 10px;
+    background-color: white;
+}
+.ttdathang .trai p{
+    font-size: 16px;
+    margin: 9px 0;
+    font-weight: bold;
+}
+.ttdathang .phai p{
+    font-size: 16px;
+    margin: 9px 0;
+}
